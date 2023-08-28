@@ -1,15 +1,16 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Layout from '../Layout/Layout'
 import Index from '../pages/Index'
-import Footer from './Footer'
+
 
 export default function Body() {
   return (
     <div className="xs: w-full h-screen bg-fondoMobile bg-cover md:bg-none">
 
-    <Navbar/>
+    <Layout>
     <Index/>
-    <Footer/>
+    </Layout>
+    
 
 
     </div>
